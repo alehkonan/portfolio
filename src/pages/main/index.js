@@ -1,7 +1,9 @@
+import { Layout } from 'layout';
+
 export const MainPage = () => {
   return (
-    <div>
+    <Layout>
       <p>Main Page</p>
-    </div>
+    </Layout>
   );
 };
