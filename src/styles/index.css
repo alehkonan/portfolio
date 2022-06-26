@@ -1,0 +1,36 @@
+@font-face {
+  font-family: 'AnekLatin';
+  src: url('../assets/fonts/AnekLatin-Regular.ttf');
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'AnekLatin';
+  src: url('../assets/fonts/AnekLatin-Medium.ttf');
+  font-weight: 500;
+}
+@font-face {
+  font-family: 'AnekLatin';
+  src: url('../assets/fonts/AnekLatin-SemiBold.ttf');
+  font-weight: 600;
+}
+@font-face {
+  font-family: 'AnekLatin';
+  src: url('../assets/fonts/AnekLatin-Bold.ttf');
+  font-weight: 700;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: AnekLatin, -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',
+    'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
