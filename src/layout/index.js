@@ -1,5 +1,7 @@
 import styled from 'styled-components';
 import { Header } from './Header';
+import { Outlet } from 'react-router-dom';
+import { colors } from 'styles';
 
 const Container = styled.div`
   min-height: 100vh;
@@ -9,13 +11,17 @@ const Container = styled.div`
 
 const Main = styled.main`
   flex: 1;
+  padding: 1rem;
+  background-color: ${colors.lightBlue};
 `;
 
-export const Layout = ({ children }) => {
+export const Layout = () => {
   return (
     <Container>
       <Header />
-      <Main>{children}</Main>
+      <Main>
+        <Outlet />
+      </Main>
     </Container>
   );
 };
